@@ -38,7 +38,7 @@ public class Registerfunctions {
 		
 		aDriver.type(Register.txtFirstname,"sfefsdc", "First Name");
 		aDriver.type(Register.txtLastname,"sadefs", "Last Name");
-		aDriver.type(Register.txtEmailid, "pramadini@gmail.com","Text Email");
+		aDriver.type(Register.txtEmailid, "pramadihhni@gmail.com","Text Email");
 		aDriver.type(Register.txtpwd, "1234567","Text Password");
 		aDriver.type(Register.txtCnfrmpwd,"1234567", "Confirm Password");
 		aDriver.click(Register.btnRegister, "Register button");
@@ -66,7 +66,7 @@ public class Registerfunctions {
 		Thread.sleep(2000);
 		aDriver.click(Register.btnchckout, "Checkout");
 		Thread.sleep(2000);
-		aDriver.type(Register.txtEmailid, "soumya243@gmail.com","email id");
+		aDriver.type(Register.txtEmailid, "soumyahfg243@gmail.com","email id");
 		Thread.sleep(2000);
 		aDriver.type(Register.txtpswd, "123456789","pwsd");
 		Thread.sleep(2000);
